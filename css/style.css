@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  display: flex;
+  line-height: 50px;
+  font-family: "Hiragino Sans";
+}
+
+.header-left {
+  margin-right: auto;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.header-right {
+  display: flex;
+  font-size: 10px;
+}
+
+.header-right a {
+  display: block;
+  margin-left: 25px;
+  color: black;
+}
+
+.top-wrapper {
+  background-image: url(../img/main-vsual-nontitle.png);
+  background-size: cover;
+}
+
+.top {
+  text-align: center;
+  padding: 120px 0;
+}
+
+.top h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: "Hiragino Sans";
+  font-weight: 500;
+}
+
+.abouts {
+  display: inline-block;
+}
+
+.heading {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Hiragino Sans";
+}
+
+.container p {
+  font-size: 15px;
+  line-height: 23px
+}
+
+.about {
+  width: 50%;
+  float: left;
+  padding: 0 20px;
+  display: inline-block;
+}
+
+.about img {
+  width: 100%;
+}
+
+.courses {
+  display: flex;
+}
+
+.course {
+  padding: 0 20px;
+}
+
+.course img {
+  width: 100%;
+}
+
+.course p {
+  margin-top: 5px;
+}
+
+.course-wrapper {
+  margin-bottom: 60px;
+}
+
+.message-wrapper {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.mail {
+  border: 2px solid #DDDDDD;
+  border-radius: 100px;
+  width: 60%;
+  height: 40px;
+}
+
+.start {
+  background-color: #FF4F50;
+  padding: 20px 80px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  color: white;
+}
+
+footer h3{
+  border-top: 1px solid #DDDDDD;
+  text-align: right;
+  line-height: 30px;
+  font-size: 5px;
+}
+
+footer {
+  height: 50px;
+}
